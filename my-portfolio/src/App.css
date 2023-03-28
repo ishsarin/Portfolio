@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+  font-family: "Poppins";
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 50px;
+  padding-block: 25px;
+  font-weight: 600;
+  font-size: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+  position: sticky;
+}
+
+.nav-wrapper h3 {
+  margin-bottom: 0px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.navbar-list {
+  display: flex;
+  margin: 0px;
+}
+.navbar-list li {
+  list-style: none;
+  padding-inline: 10px;
+}
+
+.home-section_wrapper {
+  display: flex;
+  gap: 10rem;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+}
+.home-section_wrapper h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.home-section_wrapper p {
+  font-size: 20px;
+  padding-top: 20px;
+  font-weight: 500;
+}
+
+.home-section_img {
+  background: no-repeat;
+  background-image: url("../src/media/Screenshot.png");
+  height: 35vh;
+  width: 20rem;
+}
+
+.home-section_content {
+  text-align: left;
+  width: 25rem;
+}
+.linkdin {
+  padding-right: 10px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
