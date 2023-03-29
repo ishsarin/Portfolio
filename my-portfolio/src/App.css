@@ -58,7 +58,7 @@
 
 .home-section_wrapper {
   display: flex;
-  gap: 10rem;
+  gap: 5rem;
   justify-content: center;
   align-items: center;
   padding-top: 5rem;
@@ -75,23 +75,35 @@
 
 .home-section_img {
   background: no-repeat;
-  background-image: url("../src/media/Screenshot.png");
+  background-image: url("../src//media/Screenshot.png");
+  background-size: cover;
+  border-radius: 40% 60% 70% 30%/30% 60% 40% 70%;
+  border: 3px solid #000000e0;
   height: 35vh;
   width: 20rem;
+  animation: morph 8s ease-in-out infinite;
+  transition: all 1s ease-in-out;
 }
 
+.tech-stack {
+  padding-top: 4rem;
+  width: 59%;
+  text-align: left;
+  margin: auto;
+}
+.d-flex {
+  display: flex;
+}
 .home-section_content {
   text-align: left;
-  width: 25rem;
+  width: 26rem;
 }
 .linkdin {
   padding-right: 10px;
 }
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+
+@keyframes morph {
+  50% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
 }
