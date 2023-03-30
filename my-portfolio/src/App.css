@@ -29,13 +29,22 @@
   color: #61dafb;
 }
 
+.sticky-top {
+  z-index: 9;
+  background-color: white;
+}
+
+.f-700 {
+  font-weight: 700;
+}
+
 .nav-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-inline: 50px;
   padding-block: 25px;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 16px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
   position: sticky;
@@ -56,21 +65,26 @@
   padding-inline: 10px;
 }
 
+.home-section {
+  background-color: #f9f9f9;
+}
+
 .home-section_wrapper {
   display: flex;
-  gap: 5rem;
+  gap: 8rem;
   justify-content: center;
   align-items: center;
   padding-top: 5rem;
 }
 .home-section_wrapper h1 {
   font-size: 50px;
-  font-weight: 600;
+  font-weight: 900;
 }
 .home-section_wrapper p {
   font-size: 20px;
   padding-top: 20px;
   font-weight: 500;
+  color: #767676;
 }
 
 .home-section_img {
@@ -79,17 +93,32 @@
   background-size: cover;
   border-radius: 40% 60% 70% 30%/30% 60% 40% 70%;
   border: 3px solid #000000e0;
-  height: 35vh;
+  height: 45vh;
   width: 20rem;
   animation: morph 8s ease-in-out infinite;
   transition: all 1s ease-in-out;
 }
 
 .tech-stack {
-  padding-top: 4rem;
-  width: 59%;
+  padding-block: 3rem;
+  width: 57%;
   text-align: left;
   margin: auto;
+}
+.front-end {
+  padding-bottom: 10px;
+}
+.front-end_icons:hover,
+.back-end_icons:hover {
+  cursor: pointer;
+}
+.front-end h5,
+.back-end h5 {
+  align-self: end;
+  margin-right: 0.5rem;
+}
+.react-icons {
+  margin-inline: 0.3rem;
 }
 .d-flex {
   display: flex;
@@ -100,6 +129,60 @@
 }
 .linkdin {
   padding-right: 10px;
+}
+.aboutme-wrapper {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+.aboutme {
+  padding-block: 10rem;
+}
+.aboutme-content {
+  width: 29rem;
+  height: 40vh;
+}
+.aboutme-content h4 {
+  color: rgb(104, 104, 244);
+  font-weight: 700;
+  text-align: left;
+}
+
+.aboutme-content p {
+  font-weight: 900;
+  text-align: left;
+  font-size: 20px;
+}
+
+.aboutme-content div {
+  text-align: justify;
+  text-justify: inter-word;
+  color: #767676;
+}
+
+.aboutme-img {
+  background-image: url("./media/img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 40vh;
+  width: 20rem;
+  border-radius: 20px;
+}
+
+.web-developer_logo {
+  background-image: url("./media/development.png");
+  height: 17vh;
+  width: 8rem;
+  background-color: white;
+  border-radius: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 37%;
+  background-position: 50%;
+  bottom: 6rem;
 }
 
 @keyframes morph {

@@ -3,9 +3,9 @@ import React from "react";
 const NavBar = () => {
   return (
     <>
-      <nav>
+      <nav className="sticky-top">
         <div className="nav-wrapper">
-          <h3>Sarin.Dev</h3>
+          <h3 style={{ fontWeight: 900 }}>Sarin.Dev</h3>
           <div className="list-wrapper">
             <ul className="navbar-list">
               <li>Home</li>

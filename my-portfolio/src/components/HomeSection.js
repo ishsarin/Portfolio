@@ -9,7 +9,7 @@ import { SiJavascript } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
 const HomeSection = () => {
   return (
-    <>
+    <section className="home-section">
       <div className="home-section_wrapper">
         <div className="home-section_content">
           <h1>
@@ -33,21 +33,25 @@ const HomeSection = () => {
         <div className="home-section_img"></div>
       </div>
       <div className="tech-stack">
-        <h2>Tech Stack</h2>
+        <h3 className="f-700">Tech Stack</h3>
         <div className="d-flex front-end">
-          <h4>Front-end</h4>
-          <FaHtml5 color="red" size={40} />
-          <FaCss3Alt color="blue" size={40} />
-          <FaReact color="aqua" size={40} />
-          <SiJavascript color="yellow" size={40} />
+          <h5>Front-end</h5>
+          <div className="front-end_icons">
+            <FaHtml5 color="red" size={40} className="react-icons" />
+            <FaCss3Alt color="blue" size={40} />
+            <FaReact color="aqua" size={40} className="react-icons" />
+            <SiJavascript color="yellow" size={40} />
+          </div>
         </div>
         <div className="d-flex back-end">
-          <h4>Back-end</h4>
-          <FaNodeJs color="#008000b3" size={40} />
-          <DiMongodb color="green" size={40} />
+          <h5>Back-end</h5>
+          <div className="back-end_icons">
+            <FaNodeJs color="#008000b3" size={40} className="react-icons" />
+            <DiMongodb color="green" size={40} />
+          </div>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 
