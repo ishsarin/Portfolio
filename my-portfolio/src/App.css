@@ -1,0 +1,194 @@
+.App {
+  text-align: center;
+  font-family: "Poppins";
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.sticky-top {
+  z-index: 9;
+  background-color: white;
+}
+
+.f-700 {
+  font-weight: 700;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 50px;
+  padding-block: 25px;
+  font-weight: 700;
+  font-size: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+  position: sticky;
+}
+
+.nav-wrapper h3 {
+  margin-bottom: 0px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.navbar-list {
+  display: flex;
+  margin: 0px;
+}
+.navbar-list li {
+  list-style: none;
+  padding-inline: 10px;
+}
+
+.home-section {
+  background-color: #f9f9f9;
+}
+
+.home-section_wrapper {
+  display: flex;
+  gap: 8rem;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+}
+.home-section_wrapper h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+.home-section_wrapper p {
+  font-size: 20px;
+  padding-top: 20px;
+  font-weight: 500;
+  color: #767676;
+}
+
+.home-section_img {
+  background: no-repeat;
+  background-image: url("../src//media/Screenshot.png");
+  background-size: cover;
+  border-radius: 40% 60% 70% 30%/30% 60% 40% 70%;
+  border: 3px solid #000000e0;
+  height: 20rem;
+  width: 20rem;
+  animation: morph 8s ease-in-out infinite;
+  transition: all 1s ease-in-out;
+}
+
+.tech-stack {
+  padding-block: 3rem;
+  width: 57%;
+  text-align: left;
+  margin: auto;
+}
+.front-end {
+  padding-bottom: 10px;
+}
+.front-end_icons:hover,
+.back-end_icons:hover {
+  cursor: pointer;
+}
+.front-end h5,
+.back-end h5 {
+  align-self: end;
+  margin-right: 0.5rem;
+}
+.react-icons {
+  margin-inline: 0.3rem;
+}
+.d-flex {
+  display: flex;
+}
+.home-section_content {
+  text-align: left;
+  width: 26rem;
+}
+.linkdin {
+  padding-right: 10px;
+}
+.aboutme-wrapper {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  /* align-items: center; */
+}
+.aboutme {
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+.aboutme-content {
+  width: 29rem;
+  height: 40vh;
+}
+.aboutme-content h4,
+.projects h4 {
+  color: rgb(104, 104, 244);
+  font-weight: 700;
+  text-align: left;
+}
+
+.aboutme-content p {
+  font-weight: 900;
+  text-align: left;
+  font-size: 20px;
+}
+
+.aboutme-content div {
+  text-align: justify;
+  text-justify: inter-word;
+  color: #767676;
+}
+
+.aboutme-img {
+  background-image: url("./media/img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 20px;
+}
+
+.web-developer_logo {
+  background-image: url("./media/development.png");
+  height: 8rem;
+  width: 8rem;
+  background-color: white;
+  border-radius: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 37%;
+  background-position: 50%;
+  bottom: 6rem;
+}
+
+@keyframes morph {
+  50% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
