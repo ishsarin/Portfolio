@@ -93,7 +93,7 @@
   background-size: cover;
   border-radius: 40% 60% 70% 30%/30% 60% 40% 70%;
   border: 3px solid #000000e0;
-  height: 45vh;
+  height: 20rem;
   width: 20rem;
   animation: morph 8s ease-in-out infinite;
   transition: all 1s ease-in-out;
@@ -134,16 +134,18 @@
   display: flex;
   gap: 5rem;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 .aboutme {
-  padding-block: 10rem;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
 }
 .aboutme-content {
   width: 29rem;
   height: 40vh;
 }
-.aboutme-content h4 {
+.aboutme-content h4,
+.projects h4 {
   color: rgb(104, 104, 244);
   font-weight: 700;
   text-align: left;
@@ -166,14 +168,14 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
-  height: 40vh;
+  height: 20rem;
   width: 20rem;
   border-radius: 20px;
 }
 
 .web-developer_logo {
   background-image: url("./media/development.png");
-  height: 17vh;
+  height: 8rem;
   width: 8rem;
   background-color: white;
   border-radius: 50%;

@@ -1,0 +1,100 @@
+.projects {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #f9f9f9;
+}
+
+.projects h4,
+.projects h5 {
+  width: 56%;
+  margin: auto;
+  text-align: left;
+}
+.projects_info {
+  padding-bottom: 0px !important;
+}
+
+.projects h5 {
+  padding-block: 1rem;
+  font-weight: 900;
+}
+
+.project {
+  display: flex;
+  width: 57%;
+  height: 23rem;
+  margin: auto;
+  gap: 1rem;
+  background-color: white;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-block: 5rem;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.reverse_project {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 57%;
+  height: 23rem;
+  margin: auto;
+  gap: 1rem;
+  background-color: white;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-block: 2rem;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project_img {
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 34vh;
+  width: 40rem;
+  border-radius: 25px;
+}
+.project_content {
+  width: 45%;
+}
+.project_content h5 {
+  text-align: center;
+}
+
+.project h5 {
+  font-weight: 900;
+}
+.project p {
+  color: #767676;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+}
+.reverse_project h5 {
+  font-weight: 900;
+}
+.reverse_project p {
+  color: #767676;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+}
+.project_code {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+.project_code:hover {
+  color: #6868f4;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.project_code span {
+  padding-left: 0px !important;
+}
+.projects_front-end {
+  padding-block: 0.5rem;
+}
