@@ -187,6 +187,35 @@
   bottom: 6rem;
 }
 
+.footer {
+  padding: 4rem;
+  width: 65%;
+  text-align: left;
+  margin: auto;
+}
+
+.footer div {
+  color: rgb(104, 104, 244);
+  font-weight: 700;
+  font-size: 24px;
+  padding-block: 1rem;
+}
+
+.footer_icons {
+  margin-inline: 2rem;
+}
+.footer p:hover {
+  cursor: pointer;
+}
+
+.copy-rights {
+  padding: 2rem;
+  background-color: #2d2e32 !important;
+  color: white;
+  width: 100%;
+  font-weight: 700;
+}
+
 @keyframes morph {
   50% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
