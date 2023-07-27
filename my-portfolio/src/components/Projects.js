@@ -3,7 +3,7 @@ import data from "../data/data";
 import { AiFillGithub } from "react-icons/ai";
 const Projects = () => {
   return (
-    <section className="projects">
+    <section className="projects" id="projects">
       <h4>PROJECTS</h4>
       <h5 className="projects_info">
         Each Project is a unique piece of development. ⚒️
@@ -33,7 +33,7 @@ const Projects = () => {
             </p>
             <div className="project_code">
               <span style={{ padding: "5px" }}>Code</span>
-              <AiFillGithub size={30} />
+              <AiFillGithub size={28} />
             </div>
           </div>
         </div>

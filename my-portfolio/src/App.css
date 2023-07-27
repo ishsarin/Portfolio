@@ -1,6 +1,8 @@
 .App {
   text-align: center;
   font-family: "Poppins";
+  cursor: url(https://ani.cursors-4u.net/games/gam-16/gam1571.ani),
+    url(https://ani.cursors-4u.net/games/gam-16/gam1571.png), auto !important;
 }
 
 .App-logo {
@@ -55,6 +57,10 @@
   font-weight: 600;
   font-size: 20px;
 }
+.navbar-list a {
+  text-decoration: none;
+  color: #212529;
+}
 
 .navbar-list {
   display: flex;
@@ -101,7 +107,7 @@
 
 .tech-stack {
   padding-block: 3rem;
-  width: 57%;
+  width: 45%;
   text-align: left;
   margin: auto;
 }
@@ -110,7 +116,6 @@
 }
 .front-end_icons:hover,
 .back-end_icons:hover {
-  cursor: pointer;
 }
 .front-end h5,
 .back-end h5 {
@@ -189,7 +194,7 @@
 
 .footer {
   padding: 4rem;
-  width: 65%;
+  width: 64%;
   text-align: left;
   margin: auto;
 }
@@ -219,5 +224,14 @@
 @keyframes morph {
   50% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+
+@media only screen and (max-width: 1800px) {
+  .tech-stack {
+    padding-block: 3rem;
+    width: 57%;
+    text-align: left;
+    margin: auto;
   }
 }
