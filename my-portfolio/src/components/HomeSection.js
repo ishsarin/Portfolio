@@ -7,6 +7,7 @@ import { FaNodeJs } from "@react-icons/all-files/fa/FaNodeJs";
 import { FaReact } from "@react-icons/all-files/fa/FaReact";
 import { SiJavascript } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
+
 const HomeSection = () => {
   return (
     <section className="home-section">
@@ -22,10 +23,22 @@ const HomeSection = () => {
           </p>
           <div className="home-section_links">
             <span className="linkdin">
-              <FaLinkedin size={35} />
+              <a
+                href="https://www.linkedin.com/in/ish-sarin-2bb285187/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaLinkedin size={35} color="#0A66C2" />
+              </a>
             </span>
             <span className="github">
-              <FaGithubSquare size={35} />
+              <a
+                href="https://github.com/ishsarin"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaGithubSquare size={35} color="#333" />
+              </a>
             </span>
           </div>
         </div>

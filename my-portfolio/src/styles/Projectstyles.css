@@ -82,6 +82,8 @@
   text-align: left;
 }
 .project_code {
+  display: flex;
+  justify-content: center;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -97,4 +99,13 @@
 }
 .projects_front-end {
   padding-block: 0.5rem;
+}
+.footer p {
+  cursor: pointer;
+  width: fit-content;
+}
+.resume {
+  width: 50%;
+  margin: auto;
+  padding: 1rem;
 }

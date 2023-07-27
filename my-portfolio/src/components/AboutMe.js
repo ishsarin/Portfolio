@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <section className="aboutme">
+    <section className="aboutme" id="aboutme">
       <div className="aboutme-wrapper">
         <div className="aboutme-img"></div>
         <div className="aboutme-content">
@@ -15,6 +15,14 @@ const AboutMe = () => {
             months I have learnt how to write clean code along with being a team
             player who thrives in collaborating with cross-functional teams to
             produce outstanding web applications.{" "}
+          </div>
+          <div className="resume">
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/1To3JhHWHv1oQ1IWkUY-S9vSQuNRhLWFG/view?usp=sharing"
+            >
+              <button className="btn btn-secondary">Resume</button>
+            </a>
           </div>
         </div>
       </div>
