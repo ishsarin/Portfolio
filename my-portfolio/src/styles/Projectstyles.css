@@ -81,12 +81,19 @@
   font-weight: 500;
   text-align: left;
 }
+
+.no_img{
+  margin-right: 25%;
+}
+
 .project_code {
+  margin: auto;
+  width: 50%;
   display: flex;
-  justify-content: center;
-  text-align: center;
   font-size: 16px;
   font-weight: 500;
+  color: black;
+  text-decoration: none;
 }
 .project_code:hover {
   color: #6868f4;

@@ -6,6 +6,8 @@ import { AiFillMail } from "react-icons/ai";
 import { BsTwitter } from "react-icons/bs";
 
 const Footer = () => {
+  const date = new Date();
+  let year = date.getFullYear();
   return (
     <>
       <section className="footer" id="contact">
@@ -42,7 +44,7 @@ const Footer = () => {
         </p>
       </section>
       <div className="copy-rights">
-        Copyright © 2023. All rights are reserved
+        Copyright © <span>{year}</span>. All rights are reserved
       </div>
     </>
   );
