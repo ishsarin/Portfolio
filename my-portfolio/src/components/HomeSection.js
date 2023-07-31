@@ -7,6 +7,7 @@ import { FaNodeJs } from "@react-icons/all-files/fa/FaNodeJs";
 import { FaReact } from "@react-icons/all-files/fa/FaReact";
 import { SiJavascript } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
+import { IoLogoFirebase } from "react-icons/io5";
 
 const HomeSection = () => {
   return (
@@ -61,6 +62,7 @@ const HomeSection = () => {
           <div className="back-end_icons">
             <FaNodeJs color="#008000b3" size={40} className="react-icons" />
             <DiMongodb color="green" size={40} />
+            <IoLogoFirebase color="orange" size={40} />
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ const Projects = () => {
       </h5>
       {data.map((data) => (
         <div className={data.id % 2 !== 0 ? "project" : "reverse_project"}>
-          <img className="project_img" key={data.id} src={data.image} />
+          <img className={data.image==="" ? "no_img" : "project_img"} key={data.id}    src={data.image} alt="Image Loading..." />
           <div className="project_content">
             <h5 key={data.id}>{data.title}</h5>
 
@@ -31,10 +31,10 @@ const Projects = () => {
               </span>{" "}
               {data.back}
             </p>
-            <div className="project_code">
+            <a href={data.url} className="project_code" target="_blank">
               <span style={{ padding: "5px" }}>Code</span>
               <AiFillGithub size={28} />
-            </div>
+            </a>
           </div>
         </div>
       ))}
