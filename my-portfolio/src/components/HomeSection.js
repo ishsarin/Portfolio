@@ -11,7 +11,7 @@ import { IoLogoFirebase } from "react-icons/io5";
 
 const HomeSection = () => {
   return (
-    <section className="home-section">
+    <section className="home-section" id="home">
       <div className="home-section_wrapper">
         <div className="home-section_content">
           <h1>

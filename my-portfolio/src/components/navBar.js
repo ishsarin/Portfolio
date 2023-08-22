@@ -7,7 +7,7 @@ import AboutMe from "./AboutMe";
 const NavBar = () => {
   return (
     <>
-      <nav className="sticky-top">
+      <nav className="sticky-top navBar">
         <div className="nav-wrapper">
           <h3 style={{ fontWeight: 900 }}>Sarin.Dev</h3>
           <div className="list-wrapper">
@@ -31,6 +31,7 @@ const NavBar = () => {
           </div>
         </div>
       </nav>
+     
     </>
   );
 };

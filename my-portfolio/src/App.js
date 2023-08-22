@@ -1,18 +1,23 @@
 import "./App.css";
+import "../src/styles/MobileStyles.scss"
 import "../src/styles/Projectstyles.css";
 import NavBar from "./components/navBar";
 import HomeSection from "./components/HomeSection";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import { MobileNavBar } from "./components/MobileNavBar";
 function App() {
   return (
-    <div className="App" id="home">
+    <div className="App">
+      <div className="top-section">
       <NavBar />
       <HomeSection />
       <AboutMe />
       <Projects />
       <Footer />
+      </div>
+      <MobileNavBar/>
     </div>
   );
 }
