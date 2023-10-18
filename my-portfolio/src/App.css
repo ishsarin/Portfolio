@@ -3,6 +3,9 @@
   font-family: "Poppins";
   cursor: url(https://ani.cursors-4u.net/games/gam-16/gam1571.ani),
     url(https://ani.cursors-4u.net/games/gam-16/gam1571.png), auto !important;
+
+
+
 }
 
 .App-logo {
@@ -149,7 +152,7 @@
   height: 40vh;
 }
 .aboutme-content h4,
-.projects h4 {
+.projects h4, .experience h4 {
   color: rgb(104, 104, 244);
   font-weight: 700;
   text-align: left;
@@ -193,9 +196,10 @@
 
 .footer {
   padding: 4rem;
-  width: 64%;
+  width: 100%;
   text-align: left;
   margin: auto;
+  background-color: #f9f9f9;
 }
 
 .footer div {
@@ -203,6 +207,7 @@
   font-weight: 700;
   font-size: 24px;
   padding-block: 1rem;
+  
 }
 
 .footer_icons {

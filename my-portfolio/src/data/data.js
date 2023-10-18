@@ -10,7 +10,7 @@ const data = [
     content: `A web dashboard using the MERN tech stack to communicate between two users: Manufacturer and
     Transporter.`,
     front: "ReactJs, JavaScript and Bootstrap along with HTML and SCSS.",
-    back: "NodeJS, ExpressJs, Socket.io and Firebase as a real time database along with this being hostedon Vercel.",
+    back: "NodeJS, ExpressJs, Socket.io and Firebase as a real time database along with this being hosted on Vercel.",
     image: deliver,
     url:"https://github.com/ishsarin/Delivery",
   },

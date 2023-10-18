@@ -1,11 +1,40 @@
+
+@media screen and (min-width:760px ){
+  
+
 .projects {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9; */
+}
+.letter-of-completion{
+  width: 56%;
+  margin: auto;
+  text-align: left;
+}
+.boat{
+  width: 56%;
+  margin: auto;
+  text-align: left;
+  padding-block:2rem ;
+}
+
+.boat-work ul{
+  margin: 0px;
+  padding-left: 20px;
+}
+
+.profile{
+  font-weight: 600;
+}
+
+.employee{
+ font-style: italic;
+ font-size: medium;
 }
 
 .projects h4,
-.projects h5 {
+.projects h5, .experience h4 {
   width: 56%;
   margin: auto;
   text-align: left;
@@ -22,7 +51,7 @@
 .project {
   display: flex;
   width: 57%;
-  height: 23rem;
+  height: 27rem;
   margin: auto;
   gap: 1rem;
   background-color: white;
@@ -53,7 +82,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   height: 34vh;
-  width: 40rem;
+  width: 27rem;
   border-radius: 25px;
 }
 .project_content {
@@ -109,10 +138,24 @@
 }
 .footer p {
   cursor: pointer;
-  width: fit-content;
+  
 }
 .resume {
   width: 50%;
   margin: auto;
   padding: 1rem;
+}
+
+.experience {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #f9f9f9;
+}
+
+.footer-container{
+  width: 64%;
+  margin: auto;
+  text-align: left;
+}
+
 }

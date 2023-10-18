@@ -20,6 +20,13 @@ const NavBar = () => {
                 {" "}
                 <li>About</li>
               </a>
+              <a href="#experience">
+                {" "}
+                <li>Experience</li>
+              </a>
+
+
+
               <a href="#projects">
                 <li>Projects</li>
               </a>
