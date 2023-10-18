@@ -7,6 +7,9 @@ import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import { MobileNavBar } from "./components/MobileNavBar";
+
+import Experience from "./components/Experience";
+
 function App() {
   return (
     <div className="App">
@@ -14,6 +17,7 @@ function App() {
       <NavBar />
       <HomeSection />
       <AboutMe />
+      <Experience/>
       <Projects />
       <Footer />
       </div>

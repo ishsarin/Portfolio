@@ -11,6 +11,7 @@ const Footer = () => {
   return (
     <>
       <section className="footer" id="contact">
+        <div className="footer-container">
         <div>CONTACT ME</div>
         <p>
           <a
@@ -42,6 +43,7 @@ const Footer = () => {
             <AiFillMail size={40} color="#2296dd" className="footer_icons" />
           </a>
         </p>
+        </div>
       </section>
       <div className="copy-rights">
         Copyright © <span>{year}</span>. All rights are reserved
