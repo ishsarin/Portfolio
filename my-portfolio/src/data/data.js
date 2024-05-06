@@ -40,10 +40,9 @@ const data = [
     id: 4,
     title: "PLAYGROUND 👩‍💻",
     class: "playground",
-    content: `A chatting application where one can group chat or chat individually by sharing the link of the website.
-    User friendly and a real-world application similar to WhatsApp or Discord.`,
-    front: "HTML/CSS along with Bootstrap and JavaScript",
-    back: "Socket.io and NodeJs",
+    content: `Playground is an online code editor along with having code compilation feature. More than 10 languages to choose from with old and latest versions both!. Give it a try `,
+    front: "Vite(ReactJs) along HTML/CSS, JavaScript and Chakra UI",
+    back: "None",
     image: "",
     url: "https://github.com/ishsarin/Playground",
   },
