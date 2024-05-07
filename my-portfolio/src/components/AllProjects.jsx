@@ -1,26 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 import data from "../data/data";
-import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
-
 import { AiFillGithub } from "react-icons/ai";
-const Projects = () => {
+import { useNavigate } from "react-router-dom";
+import Footer from "./Footer";
+const AllProjects = () => {
   const navigate = useNavigate();
-  const handleMoreProjects = () => {
-    const path = "/allprojects";
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
+
+  const handleHomePage = () => {
+    const path = "/";
     navigate(path);
   };
 
   return (
-    <section className="projects" id="projects">
-      <h4>PROJECTS</h4>
-      <h5 className="projects_info">
-        Each Project is a unique piece of development. ⚒️
-      </h5>
-
-      {data
-        .filter((data) => data.id <= 3)
-        .map((data) => (
+    <>
+      <section className="projects" id="projects">
+        <h4>ALL PROJECTS</h4>
+        {data.map((data) => (
           <div className={data.id % 2 !== 0 ? "project" : "reverse_project"}>
             <img
               className={data.image === "" ? "no_img" : "project_img"}
@@ -55,11 +54,13 @@ const Projects = () => {
             </div>
           </div>
         ))}
-      <button className="btn btn-warning" onClick={handleMoreProjects}>
-        More Projects
-      </button>
-    </section>
+        <button className="btn btn-warning" onClick={handleHomePage}>
+          Back to HomePage
+        </button>
+      </section>
+      <Footer />
+    </>
   );
 };
 
-export default Projects;
+export default AllProjects;

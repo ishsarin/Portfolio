@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin";
 import { FaGithubSquare } from "@react-icons/all-files/fa/FaGithubSquare";
 import { FaHtml5 } from "@react-icons/all-files/fa/FaHtml5";
@@ -8,11 +8,14 @@ import { FaReact } from "@react-icons/all-files/fa/FaReact";
 import { SiJavascript } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
 import { IoLogoFirebase } from "react-icons/io5";
-
+import { ThemeContext } from "../context/ThemeContextProvider";
 const HomeSection = () => {
+  const { dark } = useContext(ThemeContext);
   return (
-    <section className="home-section" id="home">
-      <div className="home-section_wrapper">
+    <section className={!dark ? "home-section" : "dark-home-section"} id="home">
+      <div
+        className={!dark ? "home-section_wrapper" : "dark-home-section_wrapper"}
+      >
         <div className="home-section_content">
           <h1>
             Web <br /> Developer 👋
@@ -38,7 +41,10 @@ const HomeSection = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaGithubSquare size={35} color="#333" />
+                <FaGithubSquare
+                  size={35}
+                  color={!dark ? "#333" : "mediumslateblue"}
+                />
               </a>
             </span>
           </div>
@@ -47,7 +53,12 @@ const HomeSection = () => {
         <div className="home-section_img"></div>
       </div>
       <div className="tech-stack">
-        <h3 className="f-700">Tech Stack</h3>
+        <h3
+          className="f-700"
+          style={{ color: !dark ? "black" : "rgb(104, 104, 244)" }}
+        >
+          Tech Stack
+        </h3>
         <div className="d-flex front-end">
           <h5>Front-end</h5>
           <div className="front-end_icons">
