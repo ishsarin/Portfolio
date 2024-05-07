@@ -1,11 +1,14 @@
 import React from "react";
-
+import { ThemeContext } from "../context/ThemeContextProvider";
+import { useContext } from "react";
 const AboutMe = () => {
+  const { dark } = useContext(ThemeContext);
+
   return (
     <section className="aboutme" id="aboutme">
       <div className="aboutme-wrapper">
         <div className="aboutme-img"></div>
-        <div className="aboutme-content">
+        <div className={!dark ? "aboutme-content" : "dark-aboutme-content"}>
           <h4>ABOUT ME</h4>
           <p>A dedicated Web Developer based in Gurgaon, Harayana. 📍</p>
           <div>
@@ -19,7 +22,7 @@ const AboutMe = () => {
           <div className="resume">
             <a
               target="_blank"
-              href="https://drive.google.com/file/d/1YqFewfAJG5_BC86K5Qb2CKRApCNMAyaU/view?usp=sharing"
+              href="https://drive.google.com/file/d/17r-XUXj-Vo_EGtkaL907xRjNWRsVaIAH/view?usp=sharing"
             >
               <button className="btn btn-secondary">Resume</button>
             </a>

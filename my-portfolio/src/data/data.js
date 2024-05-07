@@ -3,6 +3,8 @@ import chat from "../media/chatapp.png";
 import task from "../media/tasklist.png";
 import deliver from "../media/deliver.png";
 import legacy from "../media/legacy.png";
+import playground from "../media/playground.png";
+
 const data = [
   {
     id: 1,
@@ -43,7 +45,7 @@ const data = [
     content: `Playground is an online code editor along with having code compilation feature. More than 10 languages to choose from with old and latest versions both!. Give it a try `,
     front: "Vite(ReactJs) along HTML/CSS, JavaScript and Chakra UI",
     back: "None",
-    image: "",
+    image: playground,
     url: "https://github.com/ishsarin/Playground",
   },
   {
