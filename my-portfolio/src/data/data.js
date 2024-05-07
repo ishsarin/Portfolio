@@ -20,8 +20,7 @@ const data = [
     id: 2,
     title: "DELIVERY SYSTEM 🚚",
     class: "delivery-system",
-    content: `A web dashboard using the MERN tech stack to communicate between two users: Manufacturer and
-    Transporter.`,
+    content: `A dynamic web communication dashboard between Manufacturer and Transporter using MERN tech Stack.`,
     front: "ReactJs, JavaScript and Bootstrap along with HTML and SCSS.",
     back: "NodeJS, ExpressJs, Socket.io and Firebase as a real time database along with this being hosted on Vercel.",
     image: deliver,
@@ -31,8 +30,9 @@ const data = [
     id: 3,
     title: "YELP-CAMP 🏕️",
     class: "yelp-camp",
-    content: `The application is a mockup of Google Maps, but instead let's
-    us know about the nearest camping areas and sites to visit.`,
+    content: `A Web Blogging Application which allows user to post details and images of various campgrounds visited by
+    them and provides them with CRUD functionality along with user authentication being implemented using
+    Passport.js.`,
     front: " HTML/CSS along with Bootstrap and JavaScript",
     back: "NodeJS, ExpressJs and MongoDB for database",
     image: yelp,
@@ -42,7 +42,7 @@ const data = [
     id: 4,
     title: "PLAYGROUND 👩‍💻",
     class: "playground",
-    content: `Playground is an online code editor along with having code compilation feature. More than 10 languages to choose from with old and latest versions both!. Give it a try `,
+    content: `Playground is an online code editor along with having code compilation feature. More than 10 languages to choose from with old and latest versions both!`,
     front: "Vite(ReactJs) along HTML/CSS, JavaScript and Chakra UI",
     back: "None",
     image: playground,
