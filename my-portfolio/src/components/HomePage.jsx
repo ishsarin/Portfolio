@@ -15,9 +15,9 @@ const HomePage = () => {
         <AboutMe />
         <Experience />
         <Projects />
+        <Footer />
       </div>
       <MobileNavBar />
-      <Footer />
     </>
   );
 };

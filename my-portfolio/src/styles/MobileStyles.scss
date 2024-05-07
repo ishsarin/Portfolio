@@ -85,6 +85,7 @@
   .experience {
     padding-top: 2rem !important;
     padding-inline: 2rem;
+    background-color: #f9f9f9;
     padding-bottom: 3rem !important;
   }
   .profile {
@@ -155,5 +156,11 @@
   }
   .copy-rights {
     font-size: 15px;
+  }
+
+  .timeline {
+    float: right;
+    font-size: small !important;
+    padding-top: 5px;
   }
 }
