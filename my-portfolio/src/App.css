@@ -113,12 +113,16 @@
   font-weight: 900;
 }
 .home-section_wrapper p {
-  font-size: 20px;
+  font-size: 18px;
   padding-top: 20px;
   font-weight: 500;
   color: #767676;
 }
-
+.dark-home-section_wrapper p {
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 20px;
+}
 .home-section_img {
   background: no-repeat;
   background-image: url("../src//media/Screenshot.png");
