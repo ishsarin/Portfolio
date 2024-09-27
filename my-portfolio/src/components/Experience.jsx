@@ -44,14 +44,15 @@ const Experience = () => {
         <div className="boat-work">
           <ul>
             <li>
-              Handling the company’s website on Shopify using stacks such as
-              Liquid along with HTML/CSS and JavaScript along with the use of
-              their libraries.
+              Engineered a seamless, responsive user experience on Shopify using
+              Liquid, HTML/CSS, and JavaScript alongside the Bootstrap library
+              which improved mobile conversion rates by 40% and reduced bounce
+              rate by 25%
             </li>
             <li>
-              Cleaned code and made Live product pages for more than 55
-              bestselling products, which has reduced the page load speed by 2
-              seconds, by adding a custom class on the images of the products.
+              Reduced page load speed by 2 seconds, by adding a custom class on
+              the images of the products along with cleaning code and making
+              product pages for more than 55 bestselling products.
             </li>
             <li>
               Revamping the DEFY website for Defy (part of Imagine Marketing) on
