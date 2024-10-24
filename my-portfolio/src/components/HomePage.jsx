@@ -10,6 +10,7 @@ const HomePage = () => {
   return (
     <>
       <div className="top-section">
+        <MobileNavBar />
         <NavBar />
         <HomeSection />
         <AboutMe />
@@ -17,7 +18,6 @@ const HomePage = () => {
         <Projects />
         <Footer />
       </div>
-      <MobileNavBar />
     </>
   );
 };

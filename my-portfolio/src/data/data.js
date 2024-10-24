@@ -12,13 +12,13 @@ const data = [
     title: "BREW & BITE 🍔☕",
     class: "brew",
     content: `A fully responsive MERN stack web application designed to help users search for and find nearby cafes and
-coffee shops. The app integrates Mapbox for interactive maps, Feather Icons for a modern UI, and includes an
-image upload, CRUD operations, and many other exciting added functionalities.
-`,
+    coffee shops. The app integrates Mapbox for interactive maps, Feather Icons for a modern UI, and includes an
+    image upload, CRUD operations, and many other exciting added functionalities.`,
     front: "ReactJs(Vite), JavaScript, HTML/CSS ",
     back: "NodeJs, ExpressJs and MongoDB",
     image: brew,
     url: "https://github.com/ishsarin/CoffeeApp",
+    app: "https://brew-bite.vercel.app/",
   },
   {
     id: 2,
@@ -28,6 +28,7 @@ image upload, CRUD operations, and many other exciting added functionalities.
     front: "ReactJs, JavaScript, HTML/CSS and Firebase",
     back: "NodeJs, ExpressJs and Firebase",
     image: legacy,
+    app: "https://legacy-pied.vercel.app/",
     url: "https://github.com/ishsarin/Legacy",
   },
   {
@@ -39,6 +40,7 @@ image upload, CRUD operations, and many other exciting added functionalities.
     back: "NodeJS, ExpressJs, Socket.io and Firebase as a real time database along with this being hosted on Vercel.",
     image: deliver,
     url: "https://github.com/ishsarin/Delivery",
+    app: "https://delivery-gilt.vercel.app/",
   },
   {
     id: 4,

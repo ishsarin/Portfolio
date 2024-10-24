@@ -25,6 +25,10 @@ const HomeSection = () => {
             Hi, I'm Ish Sarin. A passionate Web Developer based in Gurgaon,
             Haryana. 📍
           </p>
+          <p>
+            With expertise in responsive design, robust backend development, and
+            interactive user experiences, I bring your digital dreams to life.
+          </p>
           <div className="home-section_links">
             <span className="linkdin">
               <a

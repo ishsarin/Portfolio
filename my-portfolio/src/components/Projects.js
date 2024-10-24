@@ -22,12 +22,14 @@ const Projects = () => {
         .filter((data) => data.id <= 3)
         .map((data) => (
           <div className={data.id % 2 !== 0 ? "project" : "reverse_project"}>
-            <img
-              className={data.image === "" ? "no_img" : "project_img"}
-              key={data.id}
-              src={data.image}
-              alt="Image Loading..."
-            />
+            <a href={data.app} target="_blank">
+              <img
+                className={data.image === "" ? "no_img" : "project_img"}
+                key={data.id}
+                src={data.image}
+                alt="Image Loading..."
+              />
+            </a>
             <div className="project_content">
               <h5 key={data.id}>{data.title}</h5>
 
