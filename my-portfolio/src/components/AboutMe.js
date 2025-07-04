@@ -22,7 +22,7 @@ const AboutMe = () => {
           <div className="resume">
             <a
               target="_blank"
-              href="https://drive.google.com/file/d/1KEqqRfAxq_Hg8QXSMjWp3BPB5xwkEvVZ/view?usp=sharing"
+              href="https://drive.google.com/file/d/1bBkn-Gh5ayLw9N3aze3Vhga6yXUOoTS_/view?usp=sharing"
             >
               <button className="btn btn-secondary">Resume</button>
             </a>
