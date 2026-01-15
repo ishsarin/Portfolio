@@ -22,7 +22,7 @@ const HomeSection = () => {
           </h1>
 
           <p>
-            Hi, I'm Ish Sarin. A passionate Web Developer based in Gurgaon,
+            Hi, I'm Ish Sarin. A passionate Developer based out of Gurgaon,
             Haryana. 📍
           </p>
           <p>

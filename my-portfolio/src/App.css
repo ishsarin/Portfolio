@@ -98,7 +98,7 @@
 .home-section_wrapper,
 .dark-home-section_wrapper {
   display: flex;
-  gap: 8rem;
+  gap: 20rem;
   justify-content: center;
   align-items: center;
   padding-top: 5rem;
@@ -137,7 +137,7 @@
 
 .tech-stack {
   padding-block: 3rem;
-  width: 45%;
+  width: 56%;
   text-align: left;
   margin: auto;
 }
@@ -167,7 +167,7 @@
 }
 .aboutme-wrapper {
   display: flex;
-  gap: 5rem;
+  gap: 7rem;
   justify-content: center;
   /* align-items: center; */
 }
@@ -213,23 +213,23 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
-  height: 20rem;
-  width: 20rem;
+  height: 23rem;
+  width: 30rem;
   border-radius: 20px;
 }
 
 .web-developer_logo {
   background-image: url("./media/development.png");
-  height: 8rem;
-  width: 8rem;
+  height: 9rem;
+  width: 9rem;
   background-color: white;
   border-radius: 50%;
   background-size: contain;
   background-repeat: no-repeat;
   position: relative;
-  left: 37%;
+  left: 41%;
   background-position: 50%;
-  bottom: 6rem;
+  bottom: 8rem;
 }
 
 .footer {

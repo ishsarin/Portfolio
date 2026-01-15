@@ -19,14 +19,36 @@ const Experience = () => {
         <div className="boat-work">
           <ul>
             <li>
-              Working as Security Information and Event Management (SIEM) Cyber
-              Security Analyst handling overseas clients.
+              Involved in developing the DrBot service from scratch at
+              Accenture, responsible for automating bot updates, monitoring
+              health checks, and synchronizing deployment statuses across
+              multiple client environments through centralized orchestration.
             </li>
             <li>
-              Investigating security alerts using Splunk, Microsoft Defender,
-              and Proofpoint, detecting and mitigating threats to safeguard
-              organizational assets; reduced response time by 25% to ensure
-              timely mitigation.
+              Designed scalable backend logic to handle thousands of concurrent
+              bot update requests, improving operational efficiency and reducing
+              manual intervention by 80%.
+            </li>
+            <li>
+              Developed and consumed RESTful APIs built with Node.js and
+              Express.js, ensuring smooth frontend backend communication,
+              optimized data transfer, and reduced latency by 35%.
+            </li>
+            <li>
+              Implemented pagination along with lazy-loading and dynamic data
+              fetching on client websites, optimizing API throughput, and
+              enhancing user experience across all major browsers and devices.
+            </li>
+            <li>
+              Engineered and integrated secure authentication mechanisms to
+              strengthen platform security and reduce login-related support
+              queries.
+            </li>
+            <li>
+              Delivered end-to-end security monitoring and incident response for
+              8+ global clients across multiple domains, leveraging tools like
+              Splunk, Sentinel, Defender, and Proofpoint to reduce incident
+              resolution time by 35%.
             </li>
           </ul>
         </div>
@@ -47,22 +69,22 @@ const Experience = () => {
               Engineered a seamless, responsive user experience on Shopify using
               Liquid, HTML/CSS, and JavaScript alongside the Bootstrap library
               which improved mobile conversion rates by 40% and reduced bounce
-              rate by 25%
+              rate by 25%.
+            </li>
+            <li>
+              Collaborated with the design and SEO teams to ensure
+              accessibility, responsiveness, and performance across browsers and
+              devices, directly enhancing overall user engagement and revenue.
+            </li>
+            <li>
+              Contributed to daily deployments, version control (Git), and
+              Shopify theme customization, gaining hands-on experience in Agile
+              development workflows.
             </li>
             <li>
               Reduced page load speed by 2 seconds, by adding a custom class on
               the images of the products along with cleaning code and making
-              product pages for more than 55 bestselling products.
-            </li>
-            <li>
-              Revamping the DEFY website for Defy (part of Imagine Marketing) on
-              Shopify for their Ecommerce sales, which is currently live.
-              <a
-                target="_blank"
-                href="https://drive.google.com/file/d/1Prqu74hASSNJPcsolPaRvjScwBdTMw4x/view?usp=share_link"
-              >
-                <button class="btn btn-primary">Letter of Completion</button>
-              </a>
+              product pages for more than 55 bestselling products
             </li>
           </ul>
         </div>
