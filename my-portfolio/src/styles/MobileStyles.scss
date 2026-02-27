@@ -1,4 +1,4 @@
-@media screen and (max-width: 416px) {
+@media screen and (max-width: 599px) {
   .navBar {
     display: none;
   }
@@ -92,7 +92,7 @@
   .aboutme {
     padding-top: 2rem;
     padding-inline: 2rem;
-    padding-bottom: 8rem !important;
+    padding-bottom: 13rem !important;
     &-wrapper {
       display: block;
     }
@@ -104,17 +104,28 @@
       font-size: 18px;
     }
   }
+  .aboutme-img {
+    background-image: url("../media/img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 20px;
+  }
   .web-developer_logo {
     // top: 10rem !important;
     // left: 5rem !important;
     display: none;
   }
-
   .experience {
-    padding-top: 2rem !important;
-    padding-inline: 2rem;
+    padding-top: 4rem !important;
+    padding-inline: 1rem;
     background-color: #f9f9f9;
     padding-bottom: 3rem !important;
+  }
+  .experience h4 {
+    text-align: center;
   }
   .profile {
     text-align: left;
@@ -140,22 +151,31 @@
       padding-block: 1rem;
     }
   }
+  .projects h4 {
+    text-align: center;
+  }
+  .project a,
+  .reverse_project a {
+    display: flex;
+    justify-content: center;
+  }
   .projects_info {
     margin: 0px;
     width: fit-content;
   }
+
   .project {
     & {
       display: block !important;
       width: fit-content !important;
-      height: 40rem !important;
+      height: fit-content;
       padding: 0px !important;
       padding-top: 1rem !important;
       background-color: white;
       border-radius: 20px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       color: #767676;
-      margin-bottom: 8rem !important;
+      margin-bottom: 2rem !important;
     }
     &_content {
       width: fit-content !important;
@@ -167,6 +187,11 @@
       }
     }
   }
+  .project img,
+  .reverse_project img {
+    display: block;
+    margin: 0 auto;
+  }
   .no_img {
     margin-right: 0% !important;
   }
@@ -177,13 +202,14 @@
   .reverse_project {
     display: block !important;
     width: fit-content !important;
-    height: 40rem !important;
+    height: fit-content;
     padding: 0px !important;
+    padding-top: 1rem !important;
     border-radius: 20px;
     color: #767676;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: white;
-    margin-bottom: 8rem !important;
+    margin-bottom: 2rem !important;
   }
   .project_img {
     height: 19vh !important;

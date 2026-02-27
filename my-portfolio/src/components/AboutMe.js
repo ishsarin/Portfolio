@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "../../src/components/ui/button";
 import { ThemeContext } from "../context/ThemeContextProvider";
 import { useContext } from "react";
 const AboutMe = () => {
@@ -24,7 +25,7 @@ const AboutMe = () => {
               target="_blank"
               href="https://drive.google.com/file/d/1bBkn-Gh5ayLw9N3aze3Vhga6yXUOoTS_/view?usp=sharing"
             >
-              <button className="btn btn-secondary">Resume</button>
+              <button className="btn btn-light">Resume</button>
             </a>
           </div>
         </div>

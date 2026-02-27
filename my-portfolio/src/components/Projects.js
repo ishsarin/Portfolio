@@ -57,7 +57,7 @@ const Projects = () => {
             </div>
           </div>
         ))}
-      <button className="btn btn-warning" onClick={handleMoreProjects}>
+      <button className="btn btn-info" onClick={handleMoreProjects}>
         More Projects
       </button>
     </section>
