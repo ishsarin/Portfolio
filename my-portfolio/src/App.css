@@ -1,7 +1,8 @@
 .App {
   text-align: center;
   font-family: "Poppins";
-  cursor: url(https://ani.cursors-4u.net/games/gam-16/gam1571.ani),
+  cursor:
+    url(https://ani.cursors-4u.net/games/gam-16/gam1571.ani),
     url(https://ani.cursors-4u.net/games/gam-16/gam1571.png), auto !important;
 }
 
@@ -10,7 +11,8 @@
   color: #01d293;
   text-align: center;
   font-family: "Poppins";
-  cursor: url(https://cur.cursors-4u.net/others/oth-3/oth246.cur), auto !important;
+  cursor:
+    url(https://cur.cursors-4u.net/others/oth-3/oth246.cur), auto !important;
 }
 
 .App-logo {
@@ -48,9 +50,9 @@
 
 .nav-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding-inline: 50px;
+  padding-inline: 175px;
   padding-block: 25px;
   font-weight: 700;
   font-size: 16px;
@@ -98,7 +100,7 @@
 .home-section_wrapper,
 .dark-home-section_wrapper {
   display: flex;
-  gap: 20rem;
+  gap: 9rem;
   justify-content: center;
   align-items: center;
   padding-top: 5rem;
@@ -125,7 +127,7 @@
 }
 .home-section_img {
   background: no-repeat;
-  background-image: url("../src//media/Screenshot.png");
+  background-image: url("../src/media/Screenshot.png");
   background-size: cover;
   border-radius: 40% 60% 70% 30%/30% 60% 40% 70%;
   border: 3px solid #000000e0;
@@ -167,10 +169,11 @@
 }
 .aboutme-wrapper {
   display: flex;
-  gap: 7rem;
+  gap: 5rem;
   justify-content: center;
   /* align-items: center; */
 }
+
 .aboutme {
   padding-top: 10rem;
   padding-bottom: 5rem;
@@ -270,6 +273,14 @@
   font-weight: 700;
 }
 
+.footer-container p,
+.home-section_links {
+  display: flex;
+}
+.front-end_icons,
+.back-end_icons {
+  display: flex;
+}
 @keyframes morph {
   50% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;

@@ -10,12 +10,35 @@
     /* background-color: #f9f9f9; */
   }
   .letter-of-completion {
-    width: 56%;
+    width: 57%;
     margin: auto;
     text-align: left;
   }
+  .aboutme-img {
+    background-image: url("../media/img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 20px;
+  }
+  .web-developer_logo {
+    background-image: url("../media/development.png");
+    height: 9rem;
+    width: 9rem;
+    background-color: white;
+    border-radius: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 37%;
+    background-position: 50%;
+    bottom: 6rem;
+  }
+
   .boat {
-    width: 56%;
+    width: 57%;
     margin: auto;
     text-align: left;
     padding-block: 2rem;
@@ -39,7 +62,7 @@
   .projects h5,
   .experience h4,
   .dark-App-experience h4 {
-    width: 56%;
+    width: 57%;
     margin: auto;
     text-align: left;
   }
@@ -129,7 +152,7 @@
 
   .project_code {
     margin: auto;
-    width: 50%;
+    width: fit-content;
     display: flex;
     font-size: 16px;
     font-weight: 500;
@@ -152,8 +175,8 @@
     cursor: pointer;
   }
   .resume {
-    width: 50%;
-    margin: auto;
+    display: flex;
+    justify-content: center;
     padding: 1rem;
   }
 
