@@ -1,6 +1,5 @@
 import yelp from "../media/yelpcamp.png";
 import chat from "../media/chatapp.png";
-import task from "../media/tasklist.png";
 import deliver from "../media/deliver.png";
 import legacy from "../media/legacy.png";
 import playground from "../media/playground.png";

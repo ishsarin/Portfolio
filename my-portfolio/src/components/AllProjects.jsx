@@ -47,7 +47,12 @@ const AllProjects = () => {
                 </span>{" "}
                 {data.back}
               </p>
-              <a href={data.url} className="project_code" target="_blank">
+              <a
+                href={data.url}
+                className="project_code"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <span style={{ padding: "5px" }}>Code</span>
                 <AiFillGithub size={28} />
               </a>
