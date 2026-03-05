@@ -1,5 +1,3 @@
-import React from "react";
-import { Button } from "../../src/components/ui/button";
 import { ThemeContext } from "../context/ThemeContextProvider";
 import { useContext } from "react";
 const AboutMe = () => {

@@ -1,8 +1,5 @@
 import React, { useContext } from "react";
-import { Link } from "react-router-dom";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomeSection from "./HomeSection";
-import AboutMe from "./AboutMe";
+
 import { MdDarkMode } from "react-icons/md";
 import { CiLight } from "react-icons/ci";
 import { ThemeContext } from "../context/ThemeContextProvider";

@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
-import { AiFillInstagram } from "react-icons/ai";
 import { AiFillMail } from "react-icons/ai";
 import { BsTwitter } from "react-icons/bs";
 import { ThemeContext } from "../context/ThemeContextProvider";

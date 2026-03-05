@@ -1,6 +1,5 @@
 import React from "react";
 import data from "../data/data";
-import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 import { AiFillGithub } from "react-icons/ai";
@@ -22,7 +21,7 @@ const Projects = () => {
         .filter((data) => data.id <= 3)
         .map((data) => (
           <div className={data.id % 2 !== 0 ? "project" : "reverse_project"}>
-            <a href={data.app} target="_blank">
+            <a href={data.app} target="_blank" rel="noreferrer">
               <img
                 className={data.image === "" ? "no_img" : "project_img"}
                 key={data.id}

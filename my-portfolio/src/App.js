@@ -1,14 +1,7 @@
 import "./App.css";
 import "../src/styles/MobileStyles.scss";
 import "../src/styles/Projectstyles.css";
-import NavBar from "./components/navBar";
-import HomeSection from "./components/HomeSection";
-import AboutMe from "./components/AboutMe";
-import Projects from "./components/Projects";
-import Footer from "./components/Footer";
-import { MobileNavBar } from "./components/MobileNavBar";
 import AllProjects from "./components/AllProjects";
-import Experience from "./components/Experience";
 import HomePage from "./components/HomePage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThemeContext } from "./context/ThemeContextProvider";
