@@ -75,7 +75,7 @@
 }
 .dark-navbar-list a:hover {
   text-decoration: none;
-  color: blue;
+  color: rgb(104, 104, 244);
 }
 
 .navbar-list,
