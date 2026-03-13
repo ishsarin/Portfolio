@@ -295,3 +295,40 @@
     margin: auto;
   }
 }
+
+@media only screen and (min-width: 1900px) {
+  .home-section_wrapper,
+  .dark-home-section_wrapper {
+    display: flex;
+    gap: 16rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+  }
+  .aboutme-img {
+    height: 27rem !important;
+    width: 27rem !important;
+  }
+  .web-developer_logo {
+    left: 40% !important;
+    bottom: 7rem !important;
+  }
+  .aboutme-wrapper {
+    align-items: center;
+    gap: 11rem;
+  }
+  .home-section_img {
+    height: 25rem;
+    width: 25rem;
+  }
+  .home-section_content {
+    width: 26rem !important;
+  }
+  .projects h4,
+  .projects h5,
+  .experience h4,
+  .dark-App-experience h4,
+  .boat {
+    width: 56% !important;
+  }
+}
