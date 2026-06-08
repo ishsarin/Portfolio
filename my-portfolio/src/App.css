@@ -92,6 +92,13 @@
 .home-section {
   background-color: #f9f9f9;
 }
+
+.dark-aboutme {
+  background-color: #0a122c;
+  padding-top: 5rem;
+  /* padding-bottom: 5rem; */
+}
+
 .dark-home-section {
   background-color: #0a122c;
   color: #01d293 !important;
@@ -104,6 +111,7 @@
   justify-content: center;
   align-items: center;
   padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 .home-section_wrapper h1 {
   font-size: 50px;
@@ -162,11 +170,9 @@
 }
 .home-section_content {
   text-align: left;
-  width: 26rem;
+  width: 35rem;
 }
-.linkdin {
-  padding-right: 10px;
-}
+
 .aboutme-wrapper {
   display: flex;
   gap: 5rem;
@@ -175,8 +181,9 @@
 }
 
 .aboutme {
-  padding-top: 10rem;
-  padding-bottom: 5rem;
+  padding-top: 5rem;
+  /* padding-bottom: 5rem; */
+  background-color: #f9f9f9;
 }
 .aboutme-content,
 .dark-aboutme-content {
@@ -195,9 +202,9 @@
 
 .aboutme-content p,
 .dark-aboutme-content p {
-  font-weight: 900;
+  /* font-weight: 900; */
   text-align: left;
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 
 .aboutme-content div {
@@ -273,9 +280,12 @@
   font-weight: 700;
 }
 
-.footer-container p,
+.footer-container p {
+  display: flex;
+}
 .home-section_links {
   display: flex;
+  justify-content: center;
 }
 .front-end_icons,
 .back-end_icons {
@@ -300,10 +310,11 @@
   .home-section_wrapper,
   .dark-home-section_wrapper {
     display: flex;
-    gap: 16rem;
+    gap: 9rem;
     justify-content: center;
     align-items: center;
     padding-top: 5rem;
+    padding-bottom: 5rem;
   }
   .aboutme-img {
     height: 27rem !important;
@@ -318,11 +329,11 @@
     gap: 11rem;
   }
   .home-section_img {
-    height: 25rem;
-    width: 25rem;
+    height: 22rem;
+    width: 22rem;
   }
   .home-section_content {
-    width: 26rem !important;
+    width: 35rem !important;
   }
   .projects h4,
   .projects h5,

@@ -4,26 +4,35 @@ const AboutMe = () => {
   const { dark } = useContext(ThemeContext);
 
   return (
-    <section className="aboutme" id="aboutme">
+    <section className={!dark ? "aboutme" : "dark-aboutme"} id="aboutme">
       <div className="aboutme-wrapper">
         <div className="aboutme-img"></div>
         <div className={!dark ? "aboutme-content" : "dark-aboutme-content"}>
           <h4>ABOUT ME</h4>
-          <p>A dedicated Software Engineer based out of Gurgaon, Harayana.📍</p>
-          <div>
-            As a Software Engineer, I possess an impressive skillset in MERN
-            Stack along with JavaScript and SCSS. I can design responsive
-            websites with smooth user experience. Having worked in this industry
-            for over a year now, I have learnt how to write clean code along
-            with being a team player who thrives in collaborating with
-            cross-functional teams to produce outstanding web applications.
+          <div className="">
+            <p className="font-thin">
+              With expertise in responsive design, robust backend development,
+              and interactive user experiences, I bring your digital dreams to
+              life.
+            </p>
+            <p>
+              I try to incorporate the latest technologies and best practices to
+              deliver high-quality solutions on time with clean and maintainable
+              code.
+            </p>
+            <p>
+              I am a lifelong learner, always eager to explore new technologies
+              and stay updated with industry trends. I thrive in collaborative
+              environments, where I can contribute my skills and learn from
+              others to create innovative solutions.
+            </p>
           </div>
           <div className="resume">
             <a
               target="_blank"
-              href="https://drive.google.com/file/d/1bBkn-Gh5ayLw9N3aze3Vhga6yXUOoTS_/view?usp=sharing"
+              href="https://drive.google.com/file/d/1rmHYi2VLMoSq0yySokxYr6z1CHq_MqmL/view?usp=sharing"
             >
-              <button className="btn btn-light">Resume</button>
+              <button className="btn bg-white">Resume</button>
             </a>
           </div>
         </div>

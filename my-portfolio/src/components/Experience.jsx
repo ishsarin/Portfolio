@@ -17,7 +17,7 @@ const Experience = () => {
         </h5>
 
         <div className="boat-work">
-          <ul>
+          <ul className="space-y-2 py-2">
             <li>
               - Involved in developing the DrBot service from scratch at
               Accenture, responsible for automating bot updates, monitoring
@@ -56,7 +56,7 @@ const Experience = () => {
 
       <div className="boat">
         <h5 className="profile">
-          Web Developer Intern,{" "}
+          Software Engineering Intern,{" "}
           <span className="employee">
             boAt Lifestyle, Imagine Marketing India Pvt. Ltd
           </span>
@@ -64,7 +64,7 @@ const Experience = () => {
         </h5>
 
         <div className="boat-work">
-          <ul>
+          <ul className="space-y-2 py-2">
             <li>
               - Engineered a seamless, responsive user experience on Shopify
               using Liquid, HTML/CSS, and JavaScript alongside the Bootstrap

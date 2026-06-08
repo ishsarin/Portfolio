@@ -17,19 +17,22 @@ const HomeSection = () => {
         className={!dark ? "home-section_wrapper" : "dark-home-section_wrapper"}
       >
         <div className="home-section_content">
-          <h1>
-            Web <br /> Developer 👋
-          </h1>
-
-          <p>
-            Hi, I'm Ish Sarin. A passionate Developer based out of Gurgaon,
-            Haryana. 📍
-          </p>
-          <p>
-            With expertise in responsive design, robust backend development, and
-            interactive user experiences, I bring your digital dreams to life.
-          </p>
-          <div className="home-section_links">
+          <div className="home-section_content-title space-y-3 py-3">
+            <h3 className="f-700">Hey there! 👋</h3>
+            <h3 className="f-700">How've you been doing?!😄</h3>
+          </div>
+          <div className="home-section_content-content">
+            <p>
+              I'm Ish Sarin. A passionate Developer based out of Gurgaon,
+              Haryana, India.📍
+            </p>
+            <p>
+              I'm a Full-Stack Software Engineer with 4+ years of software
+              development experience, including 2.5+ years in the industry, as
+              well as experience in freelance work and open-source development.
+            </p>
+          </div>
+          {/* <div className="home-section_links">
             <span className="linkdin">
               <a
                 href="https://www.linkedin.com/in/ish-sarin-2bb285187/"
@@ -51,12 +54,12 @@ const HomeSection = () => {
                 />
               </a>
             </span>
-          </div>
+          </div> */}
         </div>
 
         <div className="home-section_img"></div>
       </div>
-      <div className="tech-stack">
+      {/* <div className="tech-stack">
         <h3
           className="f-700"
           style={{ color: !dark ? "black" : "rgb(104, 104, 244)" }}
@@ -80,7 +83,7 @@ const HomeSection = () => {
             <IoLogoFirebase color="orange" size={40} />
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
