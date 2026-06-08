@@ -13,8 +13,8 @@ const HomePage = () => {
         <MobileNavBar />
         <NavBar />
         <HomeSection />
-        <AboutMe />
         <Experience />
+        <AboutMe />
         <Projects />
         <Footer />
       </div>

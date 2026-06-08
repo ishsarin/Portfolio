@@ -183,12 +183,13 @@
   .experience {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
+    background-color: white;
   }
   .dark-App-experience {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: #0a122c;
+    /* background-color: #0a122c; */
   }
   .footer-container {
     width: 60%;

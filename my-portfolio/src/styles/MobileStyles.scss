@@ -1,4 +1,8 @@
 @media screen and (max-width: 599px) {
+  .employee {
+    font-style: italic;
+    font-size: small;
+  }
   .navBar {
     display: none;
   }
@@ -19,8 +23,7 @@
     padding-inline: 2rem !important;
     padding-top: 5rem !important;
     padding-bottom: 2rem !important;
-
-    background-color: #0a122c;
+    // background-color: #0a122c;
   }
   .dark-footer {
     width: 100%;
@@ -121,7 +124,8 @@
   .experience {
     padding-top: 4rem !important;
     padding-inline: 1rem;
-    background-color: #f9f9f9;
+    // background-color: #f9f9f9;
+    background-color: white;
     padding-bottom: 3rem !important;
   }
   .experience h4 {
